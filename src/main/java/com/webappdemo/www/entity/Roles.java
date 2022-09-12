@@ -1,12 +1,8 @@
-package com.shopme.admin.entity;
+package com.webappdemo.www.entity;
 
 public enum Roles {
 
-    Admin("Manage everything"),
-    Salesperson("Manage product price, customers, shipping, orders and sales report"),
-    Editor("Manage categories, brands, products, articles and menus"),
-    Shipper("View products, view orders and update order status"),
-    Assistant("Manage product price, customers, shipping, orders and sales report");
+    Normal("Normal User");
 
     public final String DESCRIPTION;
 
